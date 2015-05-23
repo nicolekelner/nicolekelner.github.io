@@ -1,0 +1,24 @@
+@media screen and (max-device-width: 480px) {
+  .column {
+    float: none;
+  }
+}
+
+.figure {
+  float: left;
+  margin: 0 3.317535545023696682% 1.5em 0;   /* 21px / 633px */
+  width: 31.121642969984202211%;             /* 197px / 633px */
+}li#f-mycroft,
+li#f-winter {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .mast,
+  .intro,
+  .main,
+  .footer {
+    float: none;
+    width: auto;
+  }
+}
