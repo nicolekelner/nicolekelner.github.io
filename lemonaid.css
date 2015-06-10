@@ -1,5 +1,7 @@
 
 
+
+
 body, html{
    width:100%;
    min-height: 100vh;
@@ -46,13 +48,16 @@ color:#4A4A4A;}
 
 
         #box{
-           width: 500px;
+           max-width: 40%;
+           margin-left:auto;
+           margin-right:auto;
+           width: 35%;
            background-color:#53B3B3;
            opacity: .9;
            filter: alpha(opacity=40);
            display: auto;
            z-index: 1;
-           margin: auto;
+          /* margin: auto;*/
            display: flex;
           justify-content: space-around;
           align-content: center;
@@ -82,8 +87,9 @@ color:#4A4A4A;}
         margin:0;
         padding-bottom: 20px;}
 
-        .button1 {width: 300px;
-          height: 87px;
+        .button1 {width: 62%;
+          height: 70%;
+          padding:6%;
           background-color:#FCF35C ;
           border:none;
             border-radius: 5px;
@@ -91,7 +97,7 @@ color:#4A4A4A;}
             font-size: 1.5em;
             color:#4A4A4A;
             text-align: center;
-            margin: 5px ;
+            margin: 2% ;
             display: auto 0;
             outline:none;
             text-decoration: none;
@@ -99,6 +105,8 @@ color:#4A4A4A;}
             flex-direction:column;
             justify-content:center;
            }
+
+          
         .button1:hover {background-color:#AEFFE1;
          }
 
@@ -106,7 +114,7 @@ color:#4A4A4A;}
 #section2 {
   
   width:100%;
-  max-height:380px;
+  min-height:40vh;
   text-align: center;
   line-height: 30px;
   background-color: #FFF786;
@@ -114,12 +122,16 @@ color:#4A4A4A;}
            filter: alpha(opacity=20);
   vertical-align: center;
 
+
   }
+
 
           #lemon2 {text-align: center;
           line-height: 30px;
         font-size: 1.5em;
-        padding-top: 25px;
+        padding-top: 28px;
+         margin-left: 20%;
+        margin-right: 20%
     }
 
           .photo3{content:url('logo2.png');
@@ -133,37 +145,77 @@ color:#4A4A4A;}
         #lemon3{text-align: center;
           line-height: 30px;
         font-size: 1.1em;
-        padding-top:0px;}
+        padding-top:0px;
+       margin-left: 20%;
+        margin-right: 20%}
 
          #lemon4{text-align: center;
           line-height: 30px;
         font-size: 1.5em;
-        padding-top: 20px;}
+        padding-top: 20px;
+        margin-left: 20%;
+        margin-right: 20%}
 
            #lemon5{text-align: center;
           line-height: 30px;
         font-size: 1.1em;
-        padding-bottom:40px;}
+        padding-bottom:40px;
+       margin-left: 20%;
+        margin-right: 20%}
 
       
 
 .section3 {
   width:100%;
-  max-height:380px;
+  min-height:40vh;
+  max-height:100vh;
   text-align: center;
-  line-height: 30px;
+  line-height: 2rem;
   font-size:1.5em;
-  padding-top: 30px;
+  padding-top: 5%;
   background-color: #5CACA7;
-  padding-bottom:30px;
+  padding-bottom:2%;
   }
 
-      .picture1{content:url('howworks.png');
+      /*.picture1{content:url('works.png');
       max-height:65%;
       max-width:60%;
-      margin:auto;
-      padding-top:50px;
-      }
+      min-height:20%;
+      min-width: 25%;
+      margin-left:auto;
+      margin-right:auto;
+      padding-top:5%;
+      }*/
+
+      li{display:inline-block;
+        text-align: center;
+
+}
+
+      #slack {content:url('slack1.png');
+      max-height:60%;
+      max-width:55%;
+      min-height:10%;
+      min-width: 15%;
+      margin-left:auto;
+      margin-right:auto;
+      padding-top:2%;}
+       #message {content:url('message2.png');
+      max-height:60%;
+      max-width:55%;
+      min-height:10%;
+      min-width: 15%;
+      margin-left:auto;
+      margin-right:auto;
+      padding-top:2%;}
+        #globe {content:url('globe3.png');
+      max-height:60%;
+      max-width:55%;
+      min-height:10%;
+      min-width: 15%;
+      margin-left:auto;
+      margin-right:auto;
+      padding-top:2%;}
 
 .section4 {
   width:100%;
@@ -172,16 +224,15 @@ color:#4A4A4A;}
   line-height: 50px;
   font-size:1.5em;
   padding-top: 30px;
-
  background-image: url(run.png);
-
-
    background-size: cover;
    background-repeat: no-repeat;
   background-attachment: fixed;
   }
 
-  #text{color:#4A4A4A;}
+  #text{color:#4A4A4A;
+    margin-left: 5%;
+        margin-right: 5%}
     .picture2{content:url('slack.png');
       max-height:75%;
       max-width:75%;
@@ -221,6 +272,10 @@ color:#4A4A4A;}
            }
         .button2:hover {background-color:#5CACA7}
         
+        #join {margin-left: 5%;
+        margin-right: 5%}
+
+
 @media (min-width: 400px) {}
 
 /* Larger than phablet */
