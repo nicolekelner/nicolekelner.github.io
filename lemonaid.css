@@ -29,7 +29,7 @@ color:#4A4A4A;}
   background-attachment: fixed;
   color:#4A4A4A;
   padding-top: 2rem;
-  
+
 }
 
 
@@ -201,7 +201,7 @@ ul {padding:0px;}
       #slack {content:url('slack1.png');
       height:55%;
       max-width:291px;
-      width:10%;
+      width:50%;
       min-width: 251px;
       margin-left:auto;
       margin-right:auto;
@@ -209,7 +209,7 @@ ul {padding:0px;}
        #message {content:url('message2.png');
       height:55%;
       max-width:291px;
-      width:10%;
+      width:50%;
       min-width: 251px;
       margin-left:auto;
       margin-right:auto;
@@ -217,7 +217,7 @@ ul {padding:0px;}
         #globe {content:url('globe3.png');
       height:55%;
       max-width:291px;
-      width:10%;
+      width:50%;
       min-width: 251px;
       margin-left:auto;
       margin-right:auto;
