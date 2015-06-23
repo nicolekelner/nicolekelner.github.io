@@ -248,6 +248,21 @@ ul {padding:0px;}
       padding-bottom: 30px;
       }
 
+.testimonials 
+{width:100%;
+  max-height:250px;
+  text-align: center;
+  line-height: 30px;
+  font-size:1.5em;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #53B3B3;
+}
+
+#queen {margin-left: 20%;
+        margin-right: 20%;
+        line-height: 3rem;}
+
 .section5 { width:100%;
   max-height:250px;
   text-align: center;
@@ -257,6 +272,11 @@ ul {padding:0px;}
   padding-bottom: 30px;
   background-color: #FFF786;
 }
+
+/*#users{content:url('/users.png');
+max-height:200px;
+      max-width:400px;
+      margin:auto;}*/
 
   .button2{
          width: 300px;
