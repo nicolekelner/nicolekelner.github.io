@@ -274,7 +274,7 @@ body{
 }
 
 @media (min-width: 400px) 
-{min-height:100vh;
+.testimonials {min-height:100vh;
 background-color:pink;}
 
     #queen {
@@ -291,7 +291,7 @@ background-color:pink;}
             padding-bottom: 30px;}*/
 
 .section5 { width:100%;
-  max-height:100px;
+  max-height:40vh;
   text-align: center;
   line-height: 30px;
   font-size:1.5em;
@@ -305,7 +305,7 @@ max-height:200px;
       max-width:400px;
       margin:auto;}*/
 
-    /*.button2{
+    .button2{
         width: 300px;
         background-color:#6DCECD ;
         border:none;
@@ -327,7 +327,7 @@ max-height:200px;
         
       #join {
         margin-left: 5%;
-        margin-right: 5%}*/
+        margin-right: 5%}
 
 
 @media (min-width: 400px) {}
