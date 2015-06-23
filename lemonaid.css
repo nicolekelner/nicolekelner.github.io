@@ -263,8 +263,8 @@ body{
 
 .testimonials 
 {width:100%;
-  min-height:30vh;
-  max-height:30vh;
+  min-height: 30vh;
+ /* max-height:30vh;*/
   text-align: center;
   line-height: 30px;
   font-size:1.5em;
@@ -272,6 +272,10 @@ body{
   padding-bottom: 30px;
   background-color: #53B3B3;
 }
+
+@media (min-width: 400px) 
+{min-height:100vh;
+background-color:pink;}
 
     #queen {
             margin-left: 20%;
