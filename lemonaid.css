@@ -249,7 +249,7 @@ list-style-type: none;}
               #slack {
                 content:url('slack2.png');
                 height:55%;
-                max-width:291px;
+                max-height:291px;
                 width:50%;
                 max-width: 251px;
                 margin-left:auto;
@@ -262,7 +262,7 @@ list-style-type: none;}
                #message {
                 content:url('message3.png');
                 height:55%;
-                max-width:291px;
+                max-height:291px;
                 width:50%;
                 max-width: 251px;
                 margin-left:auto;
@@ -275,7 +275,7 @@ list-style-type: none;}
                 #globe {
                   content:url('world.png');
                   height:55%;
-                  max-width:291px;
+                  max-height:291px;
                   width:50%;
                   max-width: 251px;
                   margin-left:auto;
@@ -324,7 +324,7 @@ list-style-type: none;}
   background-color: #FFF786;
 }
 
-@media (min-width: 400px) 
+/*@media (min-width: 400px) */
 .testimonials {min-height:100vh;
 background-color:pink;}
 
@@ -382,7 +382,9 @@ max-height:200px;
         margin-right: 5%}
 
 
-@media (min-width: 400px) {}
+@media (max-width: 1000px) {
+  .section2{background-color: pink}
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {}
