@@ -101,7 +101,7 @@ body{
           width: 40%;
           height: 1.5rem;
           padding:6%;
-          background-color:#FCF35C ;
+          background-color:#FFF786 ;
           border:none;
           border-radius: 5px;
           font-weight:300;
@@ -118,7 +118,7 @@ body{
 
           
         .button1:hover {
-          background-color:#6DCECD;
+          background-color:#FFFCC8;
          }
 
 
@@ -328,7 +328,7 @@ max-height:200px;
 
     .button2{
         width: 300px;
-        background-color:#FCF35C ;
+        background-color:#FFF786 ;
         border:none;
         border-radius: 5px;
         font-weight:300;
@@ -344,7 +344,7 @@ max-height:200px;
       }
         
       .button2:hover {
-        background-color:#AEFFE1}
+        background-color:#FFFCC8}
         
       #join {
         margin-left: 5%;
