@@ -13,7 +13,8 @@ body{
   margin:0;
   color:#4A4A4A;}
 
-.section1 > ul {display: block;}
+.section1 > ul {display: block;
+list-style-type: none;}
 
 #nav {
   margin:-13rem;
@@ -87,7 +88,7 @@ body{
           color:#4A4A4A;
         }*/
 
-        #box {margin-top: 18rem;
+        #box {margin-top: 21rem;
         /*argin-top:-15rem;
           margin-bottom: 5rem;*/}
 
