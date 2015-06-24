@@ -33,7 +33,7 @@ list-style-type: none;}
 
 .section1 {
     display: flex;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -325,8 +325,8 @@ list-style-type: none;}
 }
 
 /*@media (min-width: 400px) */
-.testimonials {min-height:100vh;
-background-color:pink;}
+.testimonials {min-height:30vh;
+background-color:#FFFCC8;}
 
     #queen {
             margin-left: 20%;
@@ -382,7 +382,7 @@ max-height:200px;
         margin-right: 5%}
 
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   .section2{background-color: pink}
 }
 
