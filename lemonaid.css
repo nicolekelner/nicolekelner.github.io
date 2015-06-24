@@ -85,20 +85,20 @@ body{
         .what {
           text-align: center;
           font-weight: 400;
-          font-size: 2em;
+          font-size: 2.5em;
           color:white;
         }
 
         .lemonis {
           text-align: center;
           font-weight:300;
-          font-size: 1.8em;
+          font-size: 2.2em;
           color:white;
           margin:0;
           padding-bottom: 20px;}
 
         .button1 {
-          width: 40%;
+        /*  width: 40%;
           height: 1.5rem;
           padding:6%;
           background-color:#FFF786 ;
@@ -112,7 +112,21 @@ body{
           margin-right:auto;
           display: block;
           outline:none;
-          text-decoration: none;
+          text-decoration: none;*/
+          width: 200px;
+        background-color:#FFF786 ;
+        border:none;
+        border-radius: 5px;
+        font-weight:300;
+        font-size: 1.5em;
+        color:#4A4A4A;
+        text-align: center;
+        margin: auto;
+        margin-top:1rem;
+        outline:none;
+        text-decoration: none;
+        padding:1.5rem;
+        display:block;
             
            }
 
