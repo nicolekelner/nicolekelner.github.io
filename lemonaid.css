@@ -13,15 +13,26 @@ body{
   margin:0;
   color:#4A4A4A;}
 
+#nav {
+  width: 100%;
+  height:13vh;
+  background-color: #6DCECD;}
+
+    .text{
+      text-align: center;
+      color:#FFFFFF;
+      margin-top: -.5rem;
+      }
+
 .section1 {
     display: flex;
-    min-height: 100vh;
+    min-height: 87vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    background-image: url(background2.jpg);
+    background-image: url(background3.png);
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -29,7 +40,7 @@ body{
     margin:0;
     background-attachment: fixed;
     color:#4A4A4A;
-    padding-top: 2rem;
+    /*padding-top: 2rem;*/
 }
 
 
@@ -41,16 +52,17 @@ body{
             background-repeat: no-repeat;
             background-position: center;
             display: flex;
-            background-image: url(logo.png);
+            background-image: url(logo4.png);
             justify-content: center;
             align-content: center;
             align-items: center;
             margin-left:auto;
             margin-right:auto;
+            padding-top:1rem;
         }
 
 
-        #box{
+    /*    #box{
            max-width: 500px;
            width: 50%;
            max-height:340px;
@@ -63,37 +75,37 @@ body{
            display: auto;
            z-index: 1;
           /* margin: auto;*/
-          padding: 40px;
+         /* padding: 40px;
           border-radius: 5px;
           color:#4A4A4A;
-        }
+        }*/
 
         
 
         .what {
           text-align: center;
           font-weight: 400;
-          font-size: 1.4em;
-          color:#4A4A4A;
+          font-size: 2em;
+          color:white;
         }
 
         .lemonis {
           text-align: center;
           font-weight:300;
-          font-size: 1.2em;
-          color:#4A4A4A;
+          font-size: 1.8em;
+          color:white;
           margin:0;
           padding-bottom: 20px;}
 
         .button1 {
-          width: 62%;
-          height: 70%;
+          width: 40%;
+          height: 1.5rem;
           padding:6%;
           background-color:#FCF35C ;
           border:none;
           border-radius: 5px;
           font-weight:300;
-          font-size: 1.5em;
+          font-size: 1.8em;
           color:#4A4A4A;
           text-align: center;
           margin-left:auto;
@@ -106,7 +118,7 @@ body{
 
           
         .button1:hover {
-          background-color:#AEFFE1;
+          background-color:#6DCECD;
          }
 
 
@@ -133,7 +145,7 @@ body{
         }
 
           .photo3{
-            content:url('logo2.png');
+            content:url('logo4.png');
             max-height:50px;
             max-width: 50px;
             margin:auto;
@@ -164,12 +176,19 @@ body{
                 margin-right: 20%}
 
 
+     #light{  
+        width:100%;
+        height:25vh;
+        background-color: #FFFCC8;}
+
       .mission {
         font-size: 1.7em;
         padding-top: 3rem;
         margin-left: 15%;
         margin-right: 15%;
-        line-height: 3rem;}
+        line-height: 3rem;
+      }
+
             
 
 .section3 {
@@ -182,6 +201,7 @@ body{
   padding-top: 5%;
   background-color: #5CACA7;
   padding-bottom:2%;
+  color:white;
   }
 
       /*.picture1{content:url('works.png');
@@ -202,7 +222,7 @@ body{
         ul {padding:0px;}
 
               #slack {
-                content:url('slack1.png');
+                content:url('slack2.png');
                 height:55%;
                 max-width:291px;
                 width:50%;
@@ -213,7 +233,7 @@ body{
                
 
                #message {
-                content:url('message2.png');
+                content:url('message3.png');
                 height:55%;
                 max-width:291px;
                 width:50%;
@@ -224,7 +244,7 @@ body{
                 
 
                 #globe {
-                  content:url('globe3.png');
+                  content:url('world.png');
                   height:55%;
                   max-width:291px;
                   width:50%;
@@ -270,7 +290,7 @@ body{
   font-size:1.5em;
   padding-top: 50px;
   padding-bottom: 30px;
-  background-color: #53B3B3;
+  background-color: #FFF786;
 }
 
 @media (min-width: 400px) 
@@ -297,7 +317,8 @@ background-color:pink;}
   font-size:1.5em;
   padding-top: 50px;
   padding-bottom: 30px;
-  background-color: #FFF786;
+  background-color: #53B3B3;
+  color:white;
 }
 
 /*#users{content:url('/users.png');
@@ -307,7 +328,7 @@ max-height:200px;
 
     .button2{
         width: 300px;
-        background-color:#6DCECD ;
+        background-color:#FCF35C ;
         border:none;
         border-radius: 5px;
         font-weight:300;
@@ -323,7 +344,7 @@ max-height:200px;
       }
         
       .button2:hover {
-        background-color:#5CACA7}
+        background-color:#AEFFE1}
         
       #join {
         margin-left: 5%;
