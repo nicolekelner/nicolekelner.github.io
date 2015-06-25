@@ -202,12 +202,15 @@ list-style-type: none;}
 
      #light{  
         width:100%;
-        min-height:25vh;
+        min-height:20vh;
         background-color: #FFFCC8;}
 
       .mission {
         font-size: 1.7em;
-        padding-top: 3rem;
+        /*padding-top: 4.5rem;*/
+/*        padding-top: 5%;*/
+padding-top: 3%;
+padding-bottom: 3%;
         margin-left: 15%;
         margin-right: 15%;
         line-height: 3rem;
@@ -308,7 +311,7 @@ list-style-type: none;}
             max-height:70%;
             max-width:70%;
             margin:auto;
-            padding-top: 20px;
+       /*     padding-top: 10px;*/
             padding-bottom: 30px;
             }
 
@@ -382,18 +385,18 @@ max-height:200px;
         margin-right: 5%}
 
 
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
   .section2{background-color: pink}
 }
 
 /* Larger than phablet */
-@media (min-width: 550px) {}
+/*@media (min-width: 550px) {}*/
 
-/* Larger than tablet */
-@media (min-width: 750px) {}
+/* Larger than tablet 
+@media (min-width: 750px) {}*/
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+/*@media (min-width: 1000px) {}*/
 
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+/* Larger than Desktop HD *//*
+@media (min-width: 1200px) {}*/*/
