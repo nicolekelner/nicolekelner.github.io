@@ -47,7 +47,10 @@ list-style-type: none;}
     margin:0;
     background-attachment: fixed;
     color:#4A4A4A;
-    /*padding-top: 2rem;*/
+    /*padding-top: 2rem;*/-webkit-animation: ;
+    -o-animation: ;
+    animation: ;
+    text-align: center;
 }
 
 
