@@ -256,7 +256,8 @@ padding-bottom: 3%;
         }
 
 /*       .section3 >*/ 
-        #list2 {padding:0px;}
+        #list2 {padding:0px;
+                margin-bottom: 2% }
 
               #slack {
                 content:url('slack2.png');
