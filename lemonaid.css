@@ -49,9 +49,9 @@ list-style-type: none;}
     margin:0;
     background-attachment: fixed;
     color:#4A4A4A;
-    /*padding-top: 2rem;*/-webkit-animation: ;
-    -o-animation: ;
-    animation: ;
+    /*padding-top: 2rem;*//*-webkit-animation:*//* ;*/
+/*    -o-animation: ;*/
+  /*  animation: ;*/
     text-align: center;
 }
 
@@ -101,7 +101,7 @@ list-style-type: none;}
           text-align: center;
           font-weight: 400;
           /*font-size: 2.5em;*/
-          font-size: 250%;
+          font-size: 220%;
           color:white;
           padding-top: 5rem;
         }
@@ -110,7 +110,7 @@ list-style-type: none;}
           text-align: center;
           font-weight:300;
       /*    font-size: 2.2em;*/
-          font-size: 180%;
+          font-size: 160%;
           color:white;
           margin:0;
           padding-bottom: 20px;}
@@ -254,7 +254,7 @@ padding-bottom: 3%;
       }*/
 
 /*         /*     .section3 >*/ #slack{display:inline-block;
-                text-align: center;*/
+                text-align: center;
 
         }
 
