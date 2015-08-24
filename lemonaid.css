@@ -264,9 +264,9 @@ padding-bottom: 3%;
 
               #slack {
                 content:url('slack4.png');
-                height:50%;
+                height:40%;
                 max-height:281px;
-                width:50%;
+                width:40%;
                 max-width: 281px;
                 margin-left:auto;
                 margin-right:auto;
@@ -277,9 +277,9 @@ padding-bottom: 3%;
 
                #message {
                 content:url('message4.png');
-                height:50%;
+                height:40%;
                 max-height:281px;
-                width:50%;
+                width:40%;
                 max-width: 281px;
                 margin-left:auto;
                 margin-right:auto;
@@ -290,9 +290,9 @@ padding-bottom: 3%;
 
                 #globe {
                   content:url('world4.png');
-                  height:50%;
+                  height:40%;
                   max-height:281px;
-                  width:50%;
+                  width:40%;
                   max-width: 281px;
                   margin-left:auto;
                   margin-right:auto;
