@@ -243,6 +243,9 @@ padding-bottom: 3%;
   color:white;
   }
 
+#share-buttons {text-align: center;
+margin-bottom: 2rem;
+margin-top: 2rem;}
       /*.picture1{content:url('works.png');
       max-height:65%;
       max-width:60%;
@@ -407,7 +410,8 @@ max-height:200px;
       }
         
       .button2:hover {
-        background-color:#FFFCC8}
+        background-color:#FFFCC8;
+        text-decoration: none;}
         
       #join {
         margin-left: 5%;
