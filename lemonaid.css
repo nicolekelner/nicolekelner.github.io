@@ -74,6 +74,22 @@ list-style-type: none;}
           /*  margin-bottom: 2rem;*/
         }
 
+ .logoblog{ 
+            height:75px;
+            width:75px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            background-image: url(logo4.png);
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin-left:auto;
+            margin-right:auto;
+            padding-top:1rem;
+          /*  margin-bottom: 2rem;*/
+        }
 
     /*    #box{
            max-width: 500px;
@@ -252,7 +268,7 @@ padding-bottom: 3%;
   line-height: 30px;
   font-size:1.5em;
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   background-color: #FFFCC8;
 }
 
@@ -436,7 +452,30 @@ max-height:200px;
         margin-left: 5%;
         margin-right: 5%}
 
+.blog{display: flex;
 
+ justify-content: center;
+            align-content: center;
+            align-items: center;
+          display: flex;
+    height: 100%;
+    width: 100%;
+    
+    
+    background-color:#5CACA7;
+    /*padding-top: 2rem;*//*-webkit-animation:*//* ;*/
+/*    -o-animation: ;*/
+  /*  animation: ;*/
+    text-align: center;}
+
+.tumblr-post {display: flex;
+          
+            justify-content: center;
+            align-content: center;
+            align-items: center;}
+
+            .blog > ul {display: block;
+list-style-type: none;}
 /*@media (max-width: 500px) {
   .section2{background-color: pink}
 }
