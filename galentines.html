@@ -23,7 +23,7 @@ body {
   font-size: 1.2em;
   margin: 0 auto;
   max-width: 960px;
- 
+ display: flex;
   line-height: 1.65em;
   background: #B20940;
   color: #fff;
@@ -198,10 +198,11 @@ frm.WordBox.value = "You " + words[rnd] + ", " +  words2[random2] + ", " + words
 		
 
 		<h1>Happy Galentines Day!</h1>
+			 <div> Click below to generate a custom Galentine's day card to share with the Ann Perkins of your life!</div>
 
 <FORM NAME="WordForm">  
 <INPUT TYPE=TEXT NAME="WordBox" id="wordbox"><BR>
-<INPUT TYPE=BUTTON VALUE="Generate" onClick="PickRandomWord(document.WordForm); choosePic();" id="button">
+<INPUT TYPE=BUTTON VALUE="Generate Galentines Day Card" onClick="PickRandomWord(document.WordForm); choosePic();" id="button">
 </FORM>
   <center><img src="" id="myPicture" ></center>
 		
