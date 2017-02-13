@@ -38,10 +38,14 @@ a:link{color:white !important;
     opacity:.5;
 }
 
-@media (max-width: 600px) {
-  body{font-size: 2em;}
-	h1{font-size:1em;}
-	#wordbox {1.5em;}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+  body{font-size: 400%;}
+	h1{font-size:400%;}
+	#wordbox {400%;}
+	  button {font-size:400%}
+	  #click-below {font-size:250%}
 }
 		
 	
@@ -235,7 +239,7 @@ frm.WordBox.value = "You " + words[rnd] + ", " +  words2[random2] + ", " + words
 		
 
 		
-			 <div style="font-size: .95em;  margin-top: 8px; margin-bottom:5px;";> <i>Click below to generate a custom Galentine's day card to <br>share with the Ann Perkins of your life </i></div>
+			 <div id ="click-below" style="font-size: .95em;  margin-top: 8px; margin-bottom:5px;";> <i>Click below to generate a custom Galentine's day card to <br>share with the Ann Perkins of your life </i></div>
 <h1>Happy Galentines Day!</h1>
 <FORM NAME="WordForm">  
 <INPUT TYPE=TEXT NAME="WordBox" id="wordbox"><BR>
