@@ -40,12 +40,12 @@ a:link{color:white !important;
 
 body {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0 auto;
  display: flex;
 	justify-content:center;
 	text-align:center;
-  line-height: 1.65em;
+  line-height: 1.25em;
   background: #B20940;
   color: #fff;
   font-weight: 300;
@@ -53,7 +53,7 @@ body {
 
 h1 {
   text-align: center;
-  margin: 2% 0 5% 0;
+  margin: 1% 0 2% 0;
 }
 
 #wordbox {
@@ -71,7 +71,8 @@ h1 {
     transition: 1s linear;
   
 }
-
+		#button:hover{ background-color:#FFABC6}
+		
 #button {
   background: white;
     border: 0;
@@ -79,7 +80,7 @@ h1 {
     font-size: 20px;
     padding: 1em 2em;
     cursor: pointer;
-    margin: 0 auto 60px;
+    margin: 0 auto 20px;
     display: block;
     text-align: center;
     border-radius: 6px;
@@ -119,7 +120,7 @@ h1 {
 
  <script>
 
- var myPix = new Array("http://i.imgur.com/62ujjhi.png?1", "http://i.imgur.com/0F1kCeE.png?1", "http://i.imgur.com/zne5UG8.png?1", "http://i.imgur.com/C3MRHX6.jpg?1", "http://i.imgur.com/ezfJHgz.png?1");
+ var myPix = new Array("http://i.imgur.com/62ujjhi.png?1", "http://i.imgur.com/0F1kCeE.png", "http://i.imgur.com/zne5UG8.png", "http://i.imgur.com/C3MRHX6.jpg", "http://i.imgur.com/ezfJHgz.png");
 
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
@@ -219,16 +220,17 @@ frm.WordBox.value = "You " + words[rnd] + ", " +  words2[random2] + ", " + words
 		
 
 		
-			 <div> <i>Click below to generate a custom Galentine's day card to <br>share with the Ann Perkins of your life </i></div>
+			 <div style="font-size: .8em"> <i>Click below to generate a custom Galentine's day card to <br>share with the Ann Perkins of your life </i></div>
 <h1>Happy Galentines Day!</h1>
 <FORM NAME="WordForm">  
 <INPUT TYPE=TEXT NAME="WordBox" id="wordbox"><BR>
 <INPUT TYPE=BUTTON VALUE="Generate Galentines Day Card" onClick="PickRandomWord(document.WordForm); choosePic();" id="button">
 </FORM>
-	<div style="margin-bottom:10px;"  class="addthis_inline_share_toolbox"></div>
 	
 	
   <center><img src="" id="myPicture" ></center>
+	<div style="margin-bottom:10px;"  class="addthis_inline_share_toolbox"></div>
+	
 		
 
 		</body>
