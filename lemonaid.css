@@ -491,12 +491,3 @@ list-style-type: none;}
 
 /* Larger than Desktop HD *//*
 @media (min-width: 1200px) {}*/*/
-
-	#share-buttons img {
-			width: 35px;
-			padding: 5px;
-			border: 0;
-			box-shadow: 0;
-			display: inline;
-			/*text-align: center;*/
-		}
